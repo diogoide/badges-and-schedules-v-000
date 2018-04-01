@@ -18,5 +18,5 @@ def assign_rooms(speakers)
       speakers[index] = item
     room_assignment << "Hello, #{speakers[index]}! You'll be assigned to room #{(item + 1)}!"
     end
-  room_assignment
+  return room_assignment
 end
