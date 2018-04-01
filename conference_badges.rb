@@ -23,6 +23,8 @@ end
 def printer(speakers)
   badge_messages.each do |badges|
     puts "#{badges}"
+  end
   room_assignment.each do |rooms|
     puts "#{rooms}"
+  end 
 end
